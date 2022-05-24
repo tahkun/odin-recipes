@@ -1,0 +1,50 @@
+html {
+    background-color: blanchedalmond;
+    font-family: Arial, "Courier New", sans-serif;
+    display: block;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Courier New";
+}
+
+h4{
+    font-family: "Courier New";
+}
+
+.link {
+    white-space: nowrap;
+    font-size: 30px;
+    color: rgb(0, 17, 248);
+    display: block;
+    margin: auto;
+}
+
+.link.home{
+    width: 100px;
+}
+
+.link.main {
+    width: 200px;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.nutrition {
+    display: block;
+    margin-left: 32px;
+}
