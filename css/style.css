@@ -2,7 +2,7 @@ html {
     background-color: blanchedalmond;
     font-family: Arial, "Courier New", sans-serif;
     display: block;
-    margin-left: 40px;
+    margin: auto;
 }
 
 h1 {
@@ -32,7 +32,9 @@ h4{
 }
 
 .link.main {
-    width: 200px;
+    position:relative;
+    left: 1200px;
+    top: -1520px;
 }
 
 
@@ -48,3 +50,22 @@ img {
     display: block;
     margin-left: 32px;
 }
+
+.sticky {
+    background: #B8C1C8;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    color: #FFF;
+    margin: auto;
+    padding: 2px 0 0 12px;
+    text-align:center;
+    position: sticky;
+    top: -1px;
+  }
+
+ .blockone {
+    position:relative;
+    left:300px;
+    inline-size: 450px;
+    font-size: 40px;
+ }
